@@ -1,0 +1,38 @@
+body {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  padding: 0;
+
+  overflow: hidden;
+  margin: 1px;
+}
+
+canvas {
+  box-shadow: inset;
+  height: 100vh;
+  width: 90%;
+}
+.main {
+  background-color: #f9f9fd;
+  background-image: repeating-linear-gradient(
+      45deg,
+      #8d8d8d 25%,
+      transparent 25%,
+      transparent 75%,
+      #8d8d8d 75%,
+      #8d8d8d
+    ),
+    repeating-linear-gradient(
+      45deg,
+      #8d8d8d 25%,
+      #f9f9fd 25%,
+      #f9f9fd 75%,
+      #8d8d8d 75%,
+      #8d8d8d
+    );
+  background-position: 0 0, 8px 8px;
+  background-size: 16px 16px;
+}
