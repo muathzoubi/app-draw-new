@@ -36,7 +36,6 @@ const ToolbarApp = (props: any) => {
           className="ToolbarToggleItem"
           value="bold"
           aria-label="Bold"
-          onClick={(e) => {}}
           data-popover-target="popover-top"
           data-popover-placement="top"
         >
